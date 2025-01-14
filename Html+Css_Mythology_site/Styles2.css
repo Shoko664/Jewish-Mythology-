@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Georgia', serif; /* A classic font for a biblical feel */
+    background-color: #f0eae2; /* Soft background color */
+    color: #4b3d3d; /* Dark, muted text color */
+    line-height: 1.6; /* Improved readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #d9c9b8; /* Light brown for header */
+    border-bottom: 4px solid #4b3d3d; /* Darker border */
+}
+
+h1 {
+    font-size: 3em; /* Larger title */
+    margin: 0;
+    color: #6b4c4c; /* Richer color for header text */
+}
+
+/* Description Section */
+#description {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#description p {
+    font-size: 1.5em; /* Slightly larger font */
+    max-width: 900px; /* Limit width for readability */
+    margin: 0 auto; /* Center it */
+    padding: 0 20px; /* Add some padding */
+    color: #4b3d3d; /* Dark text */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Combine borders */
+    margin: 20px 0; /* Space above and below the table */
+}
+
+th, td {
+    padding: 15px; /* Space inside cells */
+    text-align: left; /* Left-align text */
+    border: 2px solid #4b3d3d; /* Darker border for visibility */
+}
+
+th {
+    background-color: #d4bdb2; /* Header background color */
+    color: #3a2a2a; /* Darker color for header text */
+    font-size: 1.5em; /* Bigger font for headers */
+}
+
+td {
+    background-color: #fff; /* Default white background for cells */
+}
+
+/* Alternating Row Colors for Table Cells */
+tbody tr:nth-child(odd) td {
+    background-color: #f4e1b6; /* Soft gold color for odd rows */
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #e3d1c1; /* Light beige/brownish color for even rows */
+}
+
+/* Image Styles in Table */
+img {
+    width: 220px; /* Increased image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Slightly rounded corners for images */
+}
+
+/* Fun Facts List */
+ul {
+    list-style-type: square; /* Square bullets */
+    padding-left: 20px; /* Indentation for list */
+}
+
+li {
+    margin: 5px 0; /* Space between list items */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    table {
+        font-size: 0.9em; /* Smaller font on smaller screens */
+    }
+
+    img {
+        width: 180px; /* Adjust image size back for mobile */
+    }
+}
